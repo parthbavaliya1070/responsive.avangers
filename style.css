@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    height: 75px;
+    width: 100%;
+    background-color: #023e8a;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+header{
+    height: 75px;
+}
+
+.bg{
+    /* background-color:white; */
+    height: 60px;
+    width: 33%;
+    
+}
+
+
+.logoo{
+    font-size: 3vw;
+    font-weight: bolder;
+    font-style: italic;
+    margin: 20px;
+    color: #90e0ef;
+}
+
+.logo{
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    align-items: center;
+    width: 10%;
+     height: 60px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    height: 30px;
+    width: 70%;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 1.2vw;
+    padding: 3px;
+}
+
+.sh{
+    height: 30px;
+    width: 9%;
+    border: none;
+    background-color:#90e0ef;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.sh i{
+    height: 1vh;
+    width: 1vw;
+}
+
+.obj ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.obj ul li{
+    list-style: none;
+    
+}
+
+
+.obj ul li a{
+    text-decoration: none;
+    color: #90e0ef;
+    font-size: 1.5vw;
+    padding: 6px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+
+.obj ul li a:hover{
+    border:1px solid #caf0f8;
+    background-color: #caf0f8;
+    color: black;
+    transition: 0.5s;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #003566;
+}
+
+.box1
+{
+    background-image: url(ironman.jpg);
+    background-size: cover;
+}
+.box2{
+    background-image: url(thor.jpg);
+    background-size: cover;
+}
+.box3{
+    background-image: url(spiderman.jpg);
+    background-size: cover;
+}
+.box4{
+    background-image: url(hulk.jpg);
+    background-size: cover;
+}
+.box5{
+    background-image: url(doctorstrange.jpg);
+    background-size: cover;
+}
+.box6{
+    background-image: url(captain-america.jpg);
+    background-size: cover;
+}
+.box7{
+    background-image: url(starlord.jpg);
+    background-size: cover;
+}
+.box8{
+    background-image: url(blackpanther.jpg);
+    background-size: cover;
+}
+.box9{
+    background-image: url(bucky.jpg);
+    background-size: cover;
+}
+.box10{
+    background-image: url(scarletwitch.jpg);
+    background-size: cover;
+}
+.box11{
+    background-image: url(vision.jpg);
+    background-size: cover;
+}
+.box12{
+    background-image: url(shuri.jpg);
+    background-size: cover;
+}
+.box13{
+    background-image: url(grootandrocket.jpg);
+    background-size: cover;
+}
+.box14{
+    background-image: url(nebula.jpg);
+    background-size: cover;
+}
+.box15{
+    background-image: url(okoye.jpg);
+    background-size: cover;
+}
+.box16{
+    background-image: url(drax.jpg);
+    background-size: cover;
+}
+.box17{
+    background-image: url(falcon.jpg);
+    background-size: cover;
+}
+.box18{
+    background-image: url(gamora.jpg);
+    background-size: cover;
+}
+.box19{
+    background-image: url(wong.jpg);
+    background-size: cover;
+}
+.box20{
+    background-image: url(mantis.jpg);
+    background-size: cover;
+}
+.box21{
+    background-image: url(jamesrhodes.jpg);
+
+    background-size: cover;
+}
+
+
+.box{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    
+    margin-top: 50px ;
+    padding: 4px;
+    transition: 0.5s;
+    box-shadow: 100px,100px,100px,100px black;
+    
+}
+
+.box:hover{
+    transform: translateY(-10px);
+    /* transform: translate3d(10px); */
+}
+
+.vm{
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 250px 50px 0px 100px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+
+.vm:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px,3px;
+    display: block;
+}
+
+/* @media (max-width:861px) {
+    .list{
+        display: flex;
+        flex-direction: column;
+    }
+} */
